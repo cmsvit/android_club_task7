@@ -3,7 +3,7 @@ Assignment 6 - Using `APIs`
 
 ## Working
 
-The 
+The data is fetched in the `useEffect()` method and then set using the `useState()` method.
 ```js
   const [news, setNews] = useState([]);
 
