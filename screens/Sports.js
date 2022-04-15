@@ -7,7 +7,7 @@ export default function SportsScreen({ navigation }) {
 
   const getSportsNews = () => {
     fetch(
-      "https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=hGnqFMiblkwdIMQxVLlPk2AWyMwW5YHK"
+      "https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=<lmao-what-are-you-looking-at>"
     )
       .then((response) => response.json())
       .then((responseJson) => {

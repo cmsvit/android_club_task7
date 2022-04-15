@@ -7,7 +7,7 @@ export default function WorldScreen({ navigation }) {
 
   const getWorldNews = () => {
     fetch(
-      "https://api.nytimes.com/svc/topstories/v2/world.json?api-key=hGnqFMiblkwdIMQxVLlPk2AWyMwW5YHK"
+      "https://api.nytimes.com/svc/topstories/v2/world.json?api-key=<lmao-what-are-you-looking-at>"
     )
       .then((response) => response.json())
       .then((responseJson) => {

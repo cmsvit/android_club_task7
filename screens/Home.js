@@ -7,7 +7,7 @@ export default function HomeScreen({ navigation }) {
 
   const getHomeNews = () => {
     fetch(
-      "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=hGnqFMiblkwdIMQxVLlPk2AWyMwW5YHK"
+      "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=<lmao-what-are-you-looking-at>"
     )
       .then((response) => response.json())
       .then((responseJson) => {
