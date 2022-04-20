@@ -6,9 +6,7 @@ export default function HomeScreen({ navigation }) {
   const [news, setNews] = useState([]);
 
   const getHomeNews = () => {
-    fetch(
-      "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=<lmao-what-are-you-looking-at>"
-    )
+    fetch("https://api.nytimes.com/svc/topstories/v2/home.json?api-key=<>")
       .then((response) => response.json())
       .then((responseJson) => {
         setNews(responseJson.results);
